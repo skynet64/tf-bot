@@ -40,7 +40,7 @@ Steps:
 
 3. Run `python3 bot.py`
 
-Currect checkpoint is bad and will result in model repeating word 'the' (and token (__go__)).
+Currect checkpoint is bad and will result in model repeating word 'the' (only few first words are different).
 
 ### Database structure
 
