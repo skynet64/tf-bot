@@ -7,7 +7,7 @@ import numpy as np
 from telebot import apihelper
 
 db_name = 'bot.db'      # bot database
-token = r'817106542:AAF7xon-Dwhcsm5SMZZ2NkbTyG70Qn2EOrI'    # bot token
+token = r''    # bot token
 default_profile = 0     # default configuratiin profile
 time_limit = 1          # time in seconds after which chat hidden states will be stored on disk
 echo_message = True     # echo received message in console
