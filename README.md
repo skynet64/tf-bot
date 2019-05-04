@@ -18,7 +18,7 @@ Created by Dmitry Ryabkov Group Б05-812
 
 `bot.db` - example of bot database file
 
-`config.zip` - contains checkpoint file for model
+`config.zip.txt` - contains link to checkpoint file for model
 
 ### Requirements
 
@@ -36,11 +36,11 @@ Steps:
 
 1. Insert correct values at the beginning of file `bot.py`
 
-2. Extract `config.zip` and create directory `data` near the scripts
+2. Download and extract `config.zip` and create directory `data` near the scripts
 
 3. Run `python3 bot.py`
 
-Currect checkpoint is bad and will result in model repeating word 'the' (and token (__go__)).
+Currect checkpoint is bad and will result in model repeating word 'the' (only few first words are different).
 
 ### Database structure
 
